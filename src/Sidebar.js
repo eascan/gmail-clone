@@ -6,7 +6,12 @@ import "./Sidebar.css";
 function Sidebar() {
   return (
     <div className="sidebar">
-      <Button startIcon={<AddIcon fontSize="large" />}>Compose</Button>
+      <Button
+        className="sidebar__compose"
+        startIcon={<AddIcon fontSize="large" />}
+      >
+        Compose
+      </Button>
     </div>
   );
 }
