@@ -42,7 +42,9 @@ function EmailList() {
         </div>
       </div>
 
-      <div className="emailList__sections"></div>
+      <div className="emailList__sections">
+        <Section Icon={InboxIcon} title="primary" color="red" selected />
+      </div>
     </div>
   );
 }

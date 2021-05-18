@@ -10,4 +10,6 @@
   top: 0;
   border-bottom: white;
   background-color: #fff;
+  z-index: 999;
+  padding-right: 10px;
 }
