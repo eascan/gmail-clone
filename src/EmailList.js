@@ -9,6 +9,8 @@ import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import SettingsIcon from "@material-ui/icons/Settings";
 import KeyboardHideIcon from "@material-ui/icons/KeyboardHide";
+import InboxIcon from "@material-ui/icons/Inbox";
+import Section from "./Section";
 
 function EmailList() {
   return (
