@@ -1,7 +1,7 @@
 import "./Section.css";
 
-function Section() {
-  return <div className="section"></div>;
+function Section({Icon, title, color, selected}) {
+  return <div className={`section ${selected && "section--selected"}`}></div>;
 }
 
 export default Section;
