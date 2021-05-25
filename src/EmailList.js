@@ -60,6 +60,12 @@ function EmailList() {
           description="General Kenobi"
           time="11pm"
         />
+        <EmailRow
+          title="Test email2"
+          subject="Hello there"
+          description="This message is too long, definitely very long, definitely very long"
+          time="11pm"
+        />
       </div>
     </div>
   );
