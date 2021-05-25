@@ -2,8 +2,11 @@ import "./SendMail.css";
 
 import CloseIcon from "@material-ui/icons/Close";
 import {Button} from "@material-ui/core";
+import {useForm} from "react-hook-form";
 
 function SendMail() {
+  const {register, handleSubmit, watch, errors} = useForm();
+
   return (
     <div className="sendMail">
       <div className="sendMail__header">
