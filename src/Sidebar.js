@@ -13,13 +13,18 @@ import PhoneIcon from "@material-ui/icons/Phone";
 
 import "./Sidebar.css";
 import SidebarOption from "./SidebarOption";
+import {useDispatch} from "react-redux";
+import {openSendMessage} from "./features/counter/mailSlice";
 
 function Sidebar() {
+  const dispatch = useDispatch();
+
   return (
     <div className="sidebar">
       <Button
         className="sidebar__compose"
         startIcon={<AddIcon fontSize="large" />}
+        onClick={() => dispatch(openSendMessage())}
       >
         Compose
       </Button>
