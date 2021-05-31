@@ -2,7 +2,7 @@
 
 This project is a Gmail clone,featuring user authentication with google Oauth, ability for users to compose and send emails with live updates.
 
-[I'm an inline-style link with title](https://clone-289d7.web.app/ "Demo")
+[Demo](https://clone-289d7.web.app/ "Demo")
 
 ## Screenshots
 
